@@ -1,0 +1,38 @@
+body {
+    background-color: lightgray;
+    background-image: none;
+}
+
+.contenidor {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.imatge img{
+    width: 300px;
+}
+
+.imatge{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.imatge img:hover{
+    transform: scale(1.15);
+}
+
+.imatge p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Century Gothic";
+    padding: 5px;
+    background-color: #ebebeb;
+    width: 50%;
+}
+
+.imatge a img {
+    cursor: pointer;
+}

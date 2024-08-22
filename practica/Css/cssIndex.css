@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 100% 100% 100%;
+}
+
+.link {
+    padding: 20px;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+div a:hover {
+    background-color: white;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#header {
+    display: none;
+}
+
+.inici {
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}

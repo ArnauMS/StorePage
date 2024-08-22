@@ -1,0 +1,19 @@
+#resumCarro {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: left;
+    padding: 5px 5px;
+    column-gap: 2px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#resumCarro div p {
+    display: inline;
+}

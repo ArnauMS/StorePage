@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/fondo.png);
+    background-size: 100%; 
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+
+#barra {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: lightgray;
+    left: -200px; 
+    transition: all 0.5s;
+}
+
+#barra.active { 
+    left: 0;
+}
+
+#barra ul li {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 5px;   
+    list-style: none;
+}
+
+#barra ul li a, #usuari a, .titulo h1 a{ 
+    text-decoration: none;
+    color: black;
+}
+
+#barra ul li:hover{ 
+    background-color: white;
+    cursor: pointer;
+}
+
+#barra .boto { 
+    position: absolute;
+    left: 220px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#barra .boto span{ 
+    display: block;
+    width: 30px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid;
+}
+
+.titulo{
+    font-family: "Freestyle Script";
+    font-size: 70px;
+    text-align: right;
+}
+
+#usuari {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#usuari li{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+@media (max-width:900px) { 
+    .layout {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    #usuari{
+        display: grid;
+        grid-template-rows: 33% 33% 33%;
+    }
+}
+
+.sessio {
+    display: none;
+}
+
+#dades {
+    cursor: pointer;
+}
